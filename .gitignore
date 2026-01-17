@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+*.egg-info/
+.pytest_cache/
+.coverage
+
+# Models cache (optional - uncomment if you want to exclude)
+# backend-python/models_cache/
+
+# Backup files
+*-old.js
+*-old.css
+*-old.tsx
+*-backup.tsx
+*-old-backup.tsx
+
+# Test files (optional)
+# test-*.js
