@@ -35,6 +35,14 @@ Thumbs.db
 .pytest_cache/
 .coverage
 
+# Trained ML Models (too large for git)
+backend-python/ml_models/saved_models/
+*.pkl
+*.pth
+*.bin
+*.safetensors
+*.pt
+
 # Models cache (optional - uncomment if you want to exclude)
 # backend-python/models_cache/
 
