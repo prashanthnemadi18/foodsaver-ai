@@ -1,30 +1,15 @@
-# AI/ML Dependencies for FoodSaver AI
-# Python 3.9+ required
 
-# Core ML Libraries
-transformers==4.35.2
-torch==2.1.0
-scikit-learn==1.3.2
-spacy==3.7.2
 
-# NLP Models
-# Run: python -m spacy download en_core_web_sm
-
-# API Framework
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
 pydantic==2.5.0
 
-# Utilities
 python-dotenv==1.0.0
 requests==2.31.0
 numpy==1.26.2
 pandas==2.1.3
 
-# Model Training & Saving
-joblib==1.3.2
-datasets==2.15.0
 
-# Optional: For better performance
-accelerate==0.25.0
-sentencepiece==0.1.99
+scikit-learn==1.3.2
+joblib==1.3.2
+
