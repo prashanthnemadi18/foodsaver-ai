@@ -19,7 +19,9 @@ import {
   Sparkles,
   Zap,
   Activity,
-  Cpu
+  Cpu,
+  Sprout,
+  Rocket
 } from 'lucide-react';
 import { AnimatedButton, AnimatedCard, AnimatedModal, StatCard, PageTransition, AIBadge, GlassSection, AIPulse } from '../components/AnimatedComponents';
 import { AIBrainIcon } from '../components/AIIcons';
